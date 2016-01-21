@@ -38,13 +38,13 @@ Add Site Notice to Page:
 
 Adding Template Variable: Now that you have added a site notice in the admin interface, we must add some code to the Page.ss template to allow this notice to be displayed on our website. Add the following code where you would like the notice to be displayed
 
--------------------------------------------
+=============================================
 <% with $SiteConfig %>
 	<% if $SiteNotice %>
 		<p>$SiteNotice</p>
 	<% end_if %>
 <% end_with %>
---------------------------------------------
+=============================================
 
 ## License
 This module is available under the BSD 3-clause
