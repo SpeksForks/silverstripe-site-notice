@@ -1,0 +1,28 @@
+{
+	"name": "sajansharmanz/silverstripe-site-notice",
+	"description": "Implement a site wide notice on your silverstripe project",
+	"type": "silverstripe-module",
+	"homepage": "http://github.com/sajansharmanz/silverstripesite-notice",
+	"keywords": [
+		"silverstripe", 
+		"bootstrap", 
+		"site notice"
+	],
+	"authors": [
+		{
+			"name": "Sajan Sharma",
+			"email": "sajansharmanz@gmail.com"
+		}
+	],
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "http://github.com/sajansharmanz/silverstripe-site-notice"
+	},
+	"require": {
+		"silverstripe/framework": ">=3.1",
+		"silverstripe/cms": ">=3.1" 
+	},
+	"extra": {
+		"installer-name": "site-notice"
+	}
+}

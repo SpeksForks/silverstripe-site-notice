@@ -1,0 +1,6 @@
+---
+name: Site Notice
+---
+SiteConfig:
+  extensions:
+    - SiteNoticeExtension
