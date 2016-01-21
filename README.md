@@ -41,7 +41,7 @@ Adding Template Variable: Now that you have added a site notice in the admin int
 =============================================
 <% with $SiteConfig %>
 	<% if $SiteNotice %>
-		<p>$SiteNotice</p>
+		$SiteNotice - Add this between HTML Heading or Paragraph Tags
 	<% end_if %>
 <% end_with %>
 =============================================
@@ -53,6 +53,8 @@ This module is available under the BSD 3-clause
 You can wrap the $SiteNotice between further HTML tags and provide it with some CSS styling to suit your template and look more attractive than some static text in your template
 
 eg.
+
+=============================================
 <% with $SiteConfig %>
 	<% if $SiteNotice %>
 		<div class="site-notice">
@@ -62,6 +64,7 @@ eg.
 		</div>
 	<% end_if %>
 <% end_with %>
+=============================================
 
 
 Good Luck and Enjoy!
