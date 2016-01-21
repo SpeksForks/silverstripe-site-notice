@@ -2,7 +2,7 @@
 	"name": "sajansharmanz/silverstripe-site-notice",
 	"description": "Implement a site wide notice on your silverstripe project",
 	"type": "silverstripe-module",
-	"homepage": "http://github.com/sajansharmanz/silverstripesite-notice",
+	"homepage": "http://github.com/sajansharmanz/silverstripe-site-notice",
 	"keywords": [
 		"silverstripe", 
 		"bootstrap", 
