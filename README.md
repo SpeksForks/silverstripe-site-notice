@@ -36,35 +36,18 @@ Add Site Notice to Page:
 - Add the notice you wish to display
 - Click Save (IMPORTANT)
 
-Adding Template Variable: Now that you have added a site notice in the admin interface, we must add some code to the Page.ss template to allow this notice to be displayed on our website. Add the following code where you would like the notice to be displayed
+Adding Site Notice to Template:
+- Choose an area where you would like to display the Site Notice and add the following line to display it in that area
 
 ```
-<% with $SiteConfig %>
-	<% if $SiteNotice %>
-		$SiteNotice - Add this between HTML Heading or Paragraph Tags
-	<% end_if %>
-<% end_with %>
+<% include SiteNotice %>
 ```
 
 ## License
 This module is available under the BSD 3-clause
 
 ## Additional Information
-You can wrap the $SiteNotice between further HTML tags and provide it with some CSS styling to suit your template and look more attractive than some static text in your template
-
-eg.
-
-```
-<% with $SiteConfig %>
-	<% if $SiteNotice %>
-		<div class="site-notice">
-			<div class="container">
-				<p>$SiteNotice</p>
-			</div>
-		</div>
-	<% end_if %>
-<% end_with %>
-```
+Some pre-styling has been provided with the Site Notice to use out of the box, however, you wrap it in additional html tags and classes to provide it with your own also
 
 
 Good Luck and Enjoy!
