@@ -23,5 +23,5 @@ class SiteNoticeExtension extends DataExtension {
 		));
 	}
 
-	
+
 }
